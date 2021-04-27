@@ -1,0 +1,93 @@
+
+
+blink {
+    animation: blink 2s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    10% {
+      opacity: 2;
+      color: red;
+    }
+    20%{
+      opacity: 2;
+      color: orange;
+    }
+    30%{
+        opacity: 1;
+        color: yellow;
+    }
+    }
+
+body{
+    background-color: #000000;
+}
+
+.Header {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.camel{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.camelfacts {
+    background-color:antiquewhite;
+    display:flex;
+    justify-content: space-between;
+}
+
+.panda {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pandafacts{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pigeon {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pigeonfacts {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teddy {
+    background-color: floralwhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cicada {
+    background-color: honeydew;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chameleon {
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chameleonfacts {
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: space-between;
+}
