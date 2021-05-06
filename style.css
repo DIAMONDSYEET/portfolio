@@ -91,3 +91,20 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.catcher {
+    text-align: center;
+        
+}
+
+.bodyimg{ position: relative; } 
+.bodyimg p{ color:#f7f2f2; font-size: 55px; 
+    font-family: fantasy; position: absolute;
+     top:10%; 
+     left:50%;
+      transform: translate(-50%,-50%);
+     } .bodyimg h3{ color:#f7f2f2;
+         font-family: fantasy; font-size: 30px; 
+         width: 1600px;
+         position: relative;
+          top:40%;
+           left:45%; transform: translate(-40%, -40%); }
